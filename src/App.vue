@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <TableEl msg="这是一个表单控件"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TableEl from './components/table/TableEl.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TableEl
   }
 }
 </script>
